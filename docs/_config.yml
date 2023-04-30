@@ -32,12 +32,8 @@ baseurl: /picgo_assets
 
 github_username:  nickburrows
 
-
 plugins:
-  - jekyll-postcss
-
-postcss:
-  cache: false
+  - jekyll-feed
 
 #
 # exclude:

@@ -4,9 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/lightbox.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body class="text-red-500">
+  <body>
     {{ content }}
+    <script src="{{ "/assets/js/lightbox-plus-jquery.min.js" | relative_url }}"></script>
   </body>
 </html>

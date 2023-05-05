@@ -32,8 +32,18 @@ baseurl: /picgo_assets
 
 github_username:  nickburrows
 
+logo: /assets/images/sheika.jpg
+
+theme: minima
+
 plugins:
   - jekyll-feed
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+permalink: date
 
 #
 # exclude:
